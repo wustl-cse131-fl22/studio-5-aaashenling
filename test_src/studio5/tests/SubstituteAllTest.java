@@ -18,7 +18,7 @@ public class SubstituteAllTest {
 		String source = "r is a r is a r is a r.";
 
 		String actual = Methods.substituteAll(source, 'r', "rose");
-		assertEquals("rose is a rose is a rose is a rose.", actual);
+		assertEquals(actual, "rose is a rose is a rose is a rose.");
 	}
 
 	@Test
